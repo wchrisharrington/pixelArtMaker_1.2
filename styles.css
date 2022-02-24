@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    background-color: deepskyblue;
+    box-shadow: 8px 8px 10px gray;
+    border: 1px solid black;
+    
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 15px;
+}
+
+td {
+    width: 12px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+.fill {
+    background-color: deepskyblue;
+    box-shadow: 8px 8px 10px gray;
+    border: 1px solid black;
+    padding: 3px;
+}
+.erase {
+    background-color: deepskyblue;
+    box-shadow: 8px 8px 10px gray;
+    border: 1px solid black;
+    padding: 3px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+tr.off {
+    height: 15px;
+    border: none;
+}
+td.off {
+    width: 13px;
+    border: none;
+}
